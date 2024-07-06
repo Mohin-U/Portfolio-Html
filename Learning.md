@@ -9,3 +9,11 @@
  3. History of html?
  4. Advantages of Html?
  5. Environment setup
+
+ 6. Basic structure of html
+  -head,body
+7. Basic tags, styling, debugging
+ -Tags? types of tags?
+ -attribute
+ -element, content
+ -debugging
