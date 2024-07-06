@@ -6,12 +6,104 @@
     <title>My portfolio</title>
 </head>
 <body>
+    <!--Section: Navbar-->
+    <nav>
+        <ul>
+
+            <li><a href="#intro" title="Visit home page">Home</a></li>
+        
+            <li><a href="#About me">About me</a></li>
+        
+            <li><a href="#contact me">contact page</a></li>
+            <li><a href="#Skills">Skill</a></li>
+            <li><a href="#projects">projects</a></li>
+
+        </ul>
+        
+    </nav>
     <!--Section intro-->
-    <header>
+    <header id="Intro">
         <h1>Mohin Uddin</h1>
         <p>A self-taught learner</p>
         <hr/>
     </header>
+    <!--Section: about me-->
+    <section id="About me">
+        <h2>About me</h2>
+        <p><strong>Experience:</strong> I worked at agora for one month</p>
+        <p><strong>Education:</strong> I'm pursuing my bachelor on CSE</p>
+        <img src="image/Mohin-u.jpg" alt="Mohin" height="150"/>
+    </section>
+
+    <!--Section: Skill-->
+    <section id="Skills">
+        <table border="1" cellpadding="5" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Technology</th>
+                    <th>Proficiency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Html</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>Css</td>
+                    <td>Novice</td>
+                </tr>
+                <tr>
+                    <td>Javascript</td>
+                    <td>Novice</td>
+                </tr>
     
+            </tbody>
+        </table>
+
+    </section id="Projects">
+
+    <!--Section: project-->
+    <section>
+        <h3>Projects</h3>
+        <ol>
+            <li><a target="_blank" href="https://github.com/Mohin-U/Portfolio-html">Portfolio website</a></li>
+            <li>Blog website</li>
+            <li>E-commerce website</li>
+        </ol>
+    </section>
+    
+    <!--Section:Contact me-->
+    <section id="Contact me">
+        <form>
+            <div>
+                <label for="Name">Name: </label>
+                <input type="text" id="Name" name="name" required/>
+    
+            </div>
+            <div>
+                <label for="Email">Email: </label>
+                <input type="Email" id="Email" name="Email" required />
+    
+            </div>
+            <div>
+                <label for="Message">Message: </label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    
+            </div>
+            
+            
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </form>
+        <footer>
+            <strong>All rights reserved by &copy; Mohin 2024</strong><br/>
+            <a href="tel:01971409243">call me</a>
+            <a href="mailto:Mdmohin142@gmail.com">Email me</a>
+        </footer>
+        
+
+    </section>
+        
 </body>
 </html>

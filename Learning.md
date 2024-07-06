@@ -22,3 +22,15 @@
 9. Semantic tag vs non-semantic tag
  -semantic tag= Header,footer,main,form,table
  -non-semantic tag = div, span
+ 10. Text formatting tags
+ 11. List
+  -ordered, unordered, definition,nested
+12. link and navigation
+ -absolute link vs relative link
+ -a tag, attribute: href, target, title
+
+13. Image
+14. Basic table
+15. Basic form
+16. Entity
+17. Deploy
