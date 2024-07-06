@@ -17,3 +17,8 @@
  -attribute
  -element, content
  -debugging
+ -comment
+8. Headings, Paragraphs, line breaks, Horizontal rule
+9. Semantic tag vs non-semantic tag
+ -semantic tag= Header,footer,main,form,table
+ -non-semantic tag = div, span
